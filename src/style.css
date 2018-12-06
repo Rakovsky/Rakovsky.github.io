@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+p {
+    color: white;
+    font-size: 30;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: grey;
+    flex-flow: nowrap column;
+}
+
+.headerContainer {
+    background-color: red;
+    order: 1;
+    flex-basis: 7.5%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: nowrap row;
+}
+
+.headerMe {
+    flex-basis: 15%;
+}
+
+.headerCV {
+    flex-basis: 15%;
+}
+
+.headerProjects {
+    flex-basis: 15%;
+}
+
+.mainContentContainer {
+    background-color: green;
+    order: 2;
+    flex-basis: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bigText {
+    font-size: 50;
+    color: whitesmoke;
+}
+
+.footerContainer {
+    background-color: blue;
+    order: 3;
+    flex-basis: 7.5%;
+}
