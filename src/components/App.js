@@ -1,14 +1,14 @@
 import React from 'react'
 import Header from './Header'
-import MainContent from './MainContent'
-import Footer from './Footer'
+import NamePage from './NamePage'
+import TimelinePage from './TimelinePage'
 
 function App() {
     return (
         <section class='container'>
             <Header />
-            <MainContent />
-            <Footer />
+            <NamePage />
+            <TimelinePage />
         </section>
     )
 }

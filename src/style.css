@@ -14,15 +14,14 @@ p {
 
 .container {
     width: 100%;
-    height: 100%;
     display: flex;
-    background-color: grey;
+    background-color: white;
     flex-flow: nowrap column;
 }
 
 .headerContainer {
-    background-color: red;
-    order: 1;
+    background-color: rgba(179, 179, 179, 0.55);
+    order: 2;
     flex-basis: 7.5%;
     display: flex;
     justify-content: flex-start;
@@ -30,34 +29,37 @@ p {
     flex-flow: nowrap row;
 }
 
-.headerMe {
-    flex-basis: 15%;
-}
-
-.headerCV {
-    flex-basis: 15%;
-}
-
-.headerProjects {
-    flex-basis: 15%;
+.headerItem {
+    flex-basis: 8%;
 }
 
 .mainContentContainer {
-    background-color: green;
-    order: 2;
-    flex-basis: 85%;
+    display: flex;
+}
+
+.namePageContainer {
+    order: 1;
+    flex-basis: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .bigText {
-    font-size: 50;
-    color: whitesmoke;
+    font-size: 60;
+    color: black;
 }
 
-.footerContainer {
-    background-color: blue;
+.timelinePageContainer {
+    width: 100%;
     order: 3;
-    flex-basis: 7.5%;
+    height: 100%;
+    display: flex;
+    background-image: url('./images/me.jpeg');
+    background-size: 100%;
+    justify-content: center;
+}
+
+.timelinePageText {
+    color: black;
 }
