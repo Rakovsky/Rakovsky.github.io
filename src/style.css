@@ -33,6 +33,12 @@ p {
     flex-basis: 8%;
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
 .mainContentContainer {
     display: flex;
 }
