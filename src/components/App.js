@@ -1,15 +1,15 @@
 import React from 'react'
 import Header from './Header'
 import NamePage from './NamePage'
-import TimelinePage from './TimelinePage'
+import Content from './Content'
 
 class App extends React.Component {
     render() {
         return(
-            <section class='container'>
+            <section className='container'>
                 <NamePage />
                 <Header />
-                <TimelinePage />
+                <Content />
             </section>
         )
     }

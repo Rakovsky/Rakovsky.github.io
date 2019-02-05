@@ -17,6 +17,19 @@ p {
     display: flex;
     background-color: white;
     flex-flow: nowrap column;
+    justify-content: center;
+}
+
+.mainContentContainer {
+    display: flex;
+}
+
+.namePageContainer {
+    order: 1;
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .headerContainer {
@@ -33,39 +46,34 @@ p {
     flex-basis: 8%;
 }
 
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%
-}
-
-.mainContentContainer {
-    display: flex;
-}
-
-.namePageContainer {
-    order: 1;
-    flex-basis: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .bigText {
     font-size: 60;
     color: black;
 }
 
-.timelinePageContainer {
-    width: 100%;
+.content {
     order: 3;
-    height: 100%;
-    display: flex;
-    background-image: url('./images/me.jpeg');
-    background-size: 100%;
-    justify-content: center;
+    background-color: red;
+    align-self: center;
+    width: 65%;
+    height: 200%;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-.timelinePageText {
-    color: black;
+.me {
+    background-image: url(./images/me.jpeg);
+}
+
+.imageBox {
+    background-size: 100%;
+    width: 40%;
+    height: 190;
+    order: 1;
+    
+    background-image: url('./images/me.jpeg');
+}
+
+.textBox {
+    size: 5;
 }
